@@ -1,0 +1,51 @@
+{
+    "source": [
+      "input/design-tokens.json"
+    ],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "buildPath": "output/css/",
+        "files": [
+          {
+            "destination": "variables.css",
+            "format": "css/variables"
+          }
+        ]
+      },
+      "react": {
+        "transformGroup": "js",
+        "buildPath": "react-demo/src/tokens/",
+        "files": [
+          {
+            "destination": "tokens.js",
+            "format": "javascript/es6"
+          }
+        ]
+      },
+      "angular": {
+        "transformGroup": "css",
+        "buildPath": "angular-demo/src/tokens/",
+        "files": [
+          {
+            "destination": "global.scss",
+            "format": "css/variables"
+          }
+        ]
+      },
+
+      "stencil": {
+        "transformGroup": "css",
+        "buildPath": "stencil-demo/src/",
+        "files": [
+          {
+            "destination": "global.scss",
+            "format": "css/variables"
+          }
+        ]
+      }
+
+    }
+  }
+
+  

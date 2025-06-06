@@ -1,0 +1,35 @@
+.btn {
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color:  var(--color-white);
+  font-weight: var( --typography-display-sm-semibold-font-weight);
+}
+
+/* VARIANTS */
+.primary {
+  background-color: var(--color-info-600);
+  /* background: #0056C9; */
+}
+
+.secondary {
+  background-color: var(--color-white);
+  /* background: #FFFFFF; */
+  border: 1px solid #DCDFE3;
+  border-radius: 8px;
+}
+
+/* WIDTHS */
+.sm {
+  width: 100px;
+}
+
+.md {
+  width: 200px;
+}
+
+.lg {
+  width: 100%;
+}

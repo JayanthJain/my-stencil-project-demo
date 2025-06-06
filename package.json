@@ -1,0 +1,20 @@
+{
+  "name": "my-stencil-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tokens": "style-dictionary build",
+    "build:stencil": "stencil build --config ./stencil/stencil.config.ts --docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@stencil/core": "^4.33.1"
+  },
+  "dependencies": {
+    "@angular/cli": "^19.2.8",
+    "style-dictionary": "^4.3.3"
+  }
+}
